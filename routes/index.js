@@ -1,6 +1,6 @@
 var express = require('express');
 var router = express.Router();
-var User = require('../model/user');
+var User = require('../../model/user');
 var Admin = require('../model/Admin');
 var validator = require('email-validator');
 var passwordValidator = require('password-validator');
