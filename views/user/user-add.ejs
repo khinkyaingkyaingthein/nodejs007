@@ -64,7 +64,7 @@
 <script type="text/javascript" src="/javascripts/jquery-3.4.1.js"></script>
 <script type="text/javascript" src="/javascripts/jquery.validate.min.js"></script>
 <script type="text/javascript">
-$('#email').blur(function(){
+ $('#email').blur(function(){
   var datap = {email:$('#email').val()};
   if(datap.email != ''){
   $.ajax({url:'/duemail',data:datap,type:'POST',
